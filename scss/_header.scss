@@ -1,0 +1,92 @@
+$color-principal:#FB2367;
+
+$color-secundario:#2d2c50;
+
+$box-shadow-principal:#FB2367 1px 1px 45px;
+
+$font-principal: "Amatic SC", cursive;
+$font-terciaria: 'Allison', cursive;
+
+$font-secundaria:"Monoton", cursive;
+
+$font-alterna: Roboto, sans-serif;
+
+.pegado-top { 
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1020;}
+
+  .botonresponsive {
+    z-index:2000;
+  }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+    box-shadow: black 5px 5px 50px;
+    .marcaHeader {
+      color: #fff;
+      font-size: 200%;
+      margin-bottom: 1%;
+    }
+    .h1antares
+    {
+        font-size:350%;
+        margin-top: 0;
+        margin-left: 5px;
+        letter-spacing: 3px;
+        margin-left: 5rem;
+        color: #DD3643;
+       text-shadow: #000 1px 5px 15px;
+       font-family: 'Allison', cursive;
+        
+
+    }
+    .logoanta {
+      height: 7%;
+      width:7%;
+      margin-left: 4rem;
+    }
+   
+    nav {
+      width: 40%;
+      ul {
+        display: flex;
+        height: 100%;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 30px;
+      
+        li {
+          list-style-type: none;
+          a {
+            color: white;
+            text-decoration: none;
+            font-size: 3em;
+            text-shadow: #000 1px 5px 15px;
+            font-family: "Amatic SC", cursive;
+            transition: 1s;
+            font-weight:bold;
+            background-image: linear-gradient(aqua, aqua);
+    background-position: right -100% bottom 0;
+    background-size: 200% 2px;
+    background-repeat: no-repeat;
+         
+           
+            
+          }
+          a:hover{
+            background-position: left 0% bottom 0;
+            transition: background-position 0.5s;
+            color: aqua;
+            transition: 1s;
+          
+            font-weight:bold;
+
+          }
+        }
+      }
+    }
+  }

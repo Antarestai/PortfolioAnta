@@ -1,0 +1,59 @@
+// #FB2367
+// #d30159
+// #c101c5
+// #7d884c
+// #2d2c50
+// #1093a7
+// #9d170e
+// #da8f96
+// #0c0f0a
+// #ff206e
+// #fbff12
+// #41ead4
+// #ffffff
+$color-principal: #fb2367;
+
+$color-secundario: #2d2c50;
+
+$box-shadow-principal: #fb2367 1px 1px 45px;
+
+$font-principal: "Amatic SC", cursive;
+
+$font-secundaria: "Monoton", cursive;
+
+$font-alterna: Roboto, sans-serif;
+
+$title-font: normal 24px/1.5 'Open Sans', sans-serif;
+
+$cool-red: #F44336;
+
+$box-shadow-bottom-only: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+
+footer {
+    background-color: $color-secundario;
+    height: 200px;
+    text-align: center;
+    margin-top: 0;
+    font-size: 1.500em;
+    display: block;
+    align-items: center;
+    justify-content: center;
+   
+    .texto-footer {
+      margin-top: 0;
+      text-align: center;
+      padding-top:2rem;
+    }
+    p {
+      color: $color-principal;
+      background-color:#2d2c50;
+      margin-left: 1rem;
+      display: flex;
+     font-family: $font-alterna;
+     font-weight: 1000;
+
+    }
+  }
+
+
+

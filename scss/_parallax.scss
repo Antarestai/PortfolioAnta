@@ -1,0 +1,26 @@
+.parallax {
+   
+    background-image: url("../imagenes/fondo_5.jpg");
+    
+    height: 1000px;
+    /* Efecto de scroll */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    box-shadow: inset black 0px 0px 90px 20px;
+  }
+  .parallax-division {
+    
+    background-image: url("../imagenes/fondo_5.jpg");
+ 
+    height: 150px;
+    /* Efecto de scroll */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset black 0px 0px 20px 9px;
+  }
+ 

@@ -1,0 +1,550 @@
+$color-principal:#FB2367;
+
+$color-secundario:#2d2c50;
+
+$box-shadow-principal:#FB2367 1px 1px 45px;
+
+$font-principal: "Amatic SC", cursive;
+
+$font-secundaria:"Monoton", cursive;
+
+$font-alterna: Roboto, sans-serif;
+
+
+
+
+@media only screen and (max-width:1450px){
+    header nav {
+        width: 60%;
+    }
+    body #top {
+        right: 40px;
+    }
+    .about .ab-contenido {
+        padding:0% 5% 0% 5%;
+    }
+
+}
+@media only screen and (max-width:1000px){
+    header nav {
+        width: 90%;
+    }
+    .about{
+       
+        justify-items: center;
+
+    }
+    .about .ab-contenido {
+        padding:0% 2px 0% 0%;
+        margin-top: 0;
+        width: 80%;
+    }
+    .about .ab-imagen img {
+        height: 70%;
+        width: 90%;
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius:0;
+        box-shadow:none
+    }
+    .about .ab-imagen  {
+       
+        margin-top: 0;
+        margin-bottom: 0;
+        flex-basis: 45%;
+    }
+    .about .ab-imagen img:hover {
+        height: 80%;
+        width: 90%;
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius:0;
+        box-shadow:none
+    }
+    .about .ab-contenido .ab-contenido-info {
+        font-size:80%;
+        margin-top:1rem
+       
+}
+.about .ab-contenido .ab-contenido-texto {
+    font-size: 90%;
+   
+}
+.about .ab-contenido .brnt-descargar
+{
+    height: 5%;
+    width: 50%;
+    margin: 1rem auto;
+
+}
+.about .ab-contenido .brnt-descargar .link-de-descarga {
+    font-size: 1.500em;
+}
+.servicios{
+    font-size:80%
+}
+}
+@media only screen and (max-width:715px){
+    header .logoanta {
+        margin-left:1rem;
+        height:4rem
+    }
+    .about .ab-imagen img {
+        height: 50%;
+        width: 50%;
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius:0;
+        box-shadow:none
+    }
+    .about .ab-imagen  {
+       
+        margin-top: 0;
+        margin-bottom: 0;
+        flex-basis: 40%;
+    }
+    .about .ab-imagen img:hover {
+        height: 60%;
+        width: 80%;
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius:0;
+        box-shadow:none
+    }
+    .about .ab-contenido .ab-contenido-info {
+        font-size:80%;
+        margin-top:1rem
+       
+}
+.about .ab-contenido .ab-contenido-texto {
+    font-size: 90%;
+   
+}
+.about .ab-contenido .brnt-descargar
+{
+    height: 5%;
+    width: 50%;
+    margin: 1rem auto;
+
+}
+.about .ab-contenido .brnt-descargar .link-de-descarga {
+    font-size: 1.500em;
+}
+.servicios{
+    font-size:70%
+}
+}
+@media only screen and (max-width:1000px){
+    header nav {
+        width: 90%;
+    }
+    .about{
+       
+        justify-items: center;
+
+    }
+    .about .ab-contenido {
+        padding:0% 2px 0% 0%;
+        margin-top: 0;
+        width: 80%;
+    }
+    .about .ab-imagen img {
+        height: 70%;
+        width: 90%;
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius:0;
+        box-shadow:none
+    }
+    .about .ab-imagen  {
+       
+        margin-top: 0;
+        margin-bottom: 0;
+        flex-basis: 45%;
+    }
+    .about .ab-imagen img:hover {
+        height: 80%;
+        width: 90%;
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius:0;
+        box-shadow:none
+    }
+    .about .ab-contenido .ab-contenido-info {
+        font-size:80%;
+        margin-top:1rem
+       
+}
+.about .ab-contenido .ab-contenido-texto {
+    font-size: 90%;
+   
+}
+.about .ab-contenido .brnt-descargar
+{
+    height: 5%;
+    width: 50%;
+    margin: 1rem auto;
+
+}
+.about .ab-contenido .brnt-descargar .link-de-descarga {
+    font-size: 1.500em;
+}
+.servicios{
+    font-size:70%
+}
+
+}
+@media only screen and (max-width:685px){
+    header .logoanta {
+        margin-left:1rem;
+        height:4rem
+    }
+    .about .ab-imagen img {
+        height: 60%;
+        width: 90%;
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius:0;
+        box-shadow:none
+    }
+    .about .ab-imagen  {
+       
+        margin-top: 0;
+        margin-bottom: 0;
+        flex-basis: 40%;
+    }
+    .about .ab-imagen img:hover {
+        height: 60%;
+        width: 80%;
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius:0;
+        box-shadow:none
+    }
+    .about .ab-contenido {
+        width: 80%;
+    }
+    .about .ab-contenido .ab-contenido-info {
+        font-size:80%;
+        margin-top:1rem
+       
+}
+.about
+{
+    height:600px
+}
+body ul.iconos1 li.iconos a
+{
+    margin:0 2px;
+}
+.about .ab-contenido .ab-contenido-texto {
+    font-size: 90%;
+   
+}
+.about .ab-contenido .brnt-descargar
+{
+    height: 5%;
+    width: 50%;
+    margin: 1rem auto;
+
+}
+.about .ab-contenido .brnt-descargar .link-de-descarga {
+    font-size: 1.500em;
+}
+.servicios{
+    font-size:50%;
+    
+}
+.servicios .se-contenido {
+    gap: 5%;
+    margin-top: 10px;
+    
+}
+
+}
+@media only screen and (max-width:570px){
+    body .containermenu {
+        visibility:visible;
+    }
+    header .logoanta {
+        margin-left:1rem;
+        height:7rem;
+        width:6rem;
+    }
+    .about .ab-imagen img {
+        height: 60%;
+        width: 90%;
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius:0;
+        box-shadow:none
+    }
+    .about .ab-imagen  {
+       
+        margin-top: 0;
+        margin-bottom: 0;
+        flex-basis: 40%;
+    }
+    .about .ab-imagen img:hover {
+        height: 60%;
+        width: 80%;
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius:0;
+        box-shadow:none
+    }
+    .about .ab-contenido {
+        width: 80%;
+    }
+    .about .ab-contenido .ab-contenido-info {
+        font-size:80%;
+        margin-top:0
+       
+}
+.about
+{
+    height:600px
+}
+body nav ul
+{
+   visibility:hidden;
+    left :-2000px;
+    font-size:1px;
+}
+.about .ab-contenido .ab-contenido-texto {
+    font-size: 90%;
+   
+}
+.about .ab-contenido .brnt-descargar
+{
+    height: 5%;
+    width: 50%;
+    margin: 1rem auto;
+
+}
+.about .ab-contenido .brnt-descargar .link-de-descarga {
+    font-size: 1.500em;
+}
+.servicios{
+    font-size:30%
+}
+.servicios .se-contenido {
+    gap: 5%;
+}
+
+}
+@media only screen and (max-width:515px){
+    body .containermenu {
+        visibility:visible;
+    }
+    header .logoanta {
+        margin-left:1rem;
+        height:7rem;
+        width:6rem;
+    }
+    .about .ab-imagen img {
+        height: 80%;
+        width: 60%;
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius:0;
+        box-shadow:none
+    }
+    .about .ab-imagen  {
+       
+        margin-top: 0;
+        margin-bottom: 0;
+        flex-basis: 10%;
+
+    }
+    .about .ab-imagen img:hover {
+        height: 60%;
+        width: 80%;
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius:0;
+        box-shadow:none
+    }
+    .about .ab-contenido {
+        width: 50%;
+        transform: translateX(50%);
+    }
+    .about .ab-contenido .ab-contenido-info {
+        font-size:80%;
+        margin-top:0
+       
+}
+.about
+{
+    height:850px;
+    display:flex;
+    font-size: 90%;
+    flex-direction: column;
+}
+body nav ul
+{
+   visibility:hidden;
+    left :-2000px;
+    font-size:1px;
+}
+.about .ab-contenido .ab-contenido-texto {
+    font-size: 90%;
+   
+}
+.about .ab-contenido .ab-contenido-info {
+    width: 250px;
+    margin-top: 1rem;
+}
+.about .ab-contenido .brnt-descargar
+{
+    height: 5%;
+    width: 50%;
+    margin: 1rem auto;
+   transform: translateX(25rem);
+   transform: translateY(-27rem)
+   
+
+}
+.about .ab-contenido .brnt-descargar .link-de-descarga {
+    font-size: 1em;
+}
+.servicios{
+    font-size:35%
+}
+.servicios .se-contenido {
+    gap: 5%;
+}
+
+.servicios .collapse .contenedorCards {
+    gap: 5%;
+
+}
+
+}
+@media only screen and (max-width:415px){
+    body .containermenu {
+        visibility:visible;
+    }
+    .about-ajuste {
+        height: 5%;
+        width: 5%;
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius:0;
+        box-shadow:none;
+        flex-basis:10%;
+    }
+    header .logoanta {
+        margin-left:1rem;
+        height:7rem;
+        width:6rem;
+    }
+    .about .ab-imagen img {
+        height: 5%;
+        width: 5%;
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius:0;
+        box-shadow:none
+    }
+    .about .ab-imagen  {
+       
+        margin-top: 30px;
+        margin-bottom: 0;
+        flex-basis: 10%;
+
+    }
+    .about .ab-imagen img:hover {
+        height: 7%;
+        width: 7%;
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius:0;
+        box-shadow:none
+    }
+    
+ 
+.about
+{
+    height:20%;
+    display:flex;
+    font-size: 30%;
+    flex-direction: column;
+}
+body nav ul
+{
+   visibility:hidden;
+    left :-2000px;
+    font-size:1px;
+}
+
+
+.about .ab-contenido .brnt-descargar .link-de-descarga {
+    font-size: 1em;
+}
+.servicios{
+    font-size:35%
+}
+.servicios .se-contenido {
+    gap: 5%;
+}
+
+.servicios .collapse .contenedorCards {
+    gap: 5%;
+
+}
+
+}
+@media only screen and (max-width:400px){
+   body h1 {
+       font-size:7em
+   }
+    body h5 {
+        font-size:190%;
+    }
+    body .containermenu {
+       left: 85%;
+    }
+    .servicios
+    {
+        font-size: 30%;
+    }
+    .about .ab-contenido .brnt-descargar{
+    transform: translateY(-27rem);
+    }
+}
+@media only screen and (max-width:515px){
+    body #toggle:checked ~ .navdelmenu{ 
+        transform:translateX(71rem)
+    }
+}
+@media only screen and (max-width:455px){
+    body #toggle:checked ~ .navdelmenu{ 
+        transform:translateX(74rem)
+    }
+}
+@media only screen and (max-width:400px){
+    body #toggle:checked ~ .navdelmenu{ 
+        transform:translateX(78rem)
+    }
+}
+@media only screen and (max-width:360px){
+    body #toggle:checked ~ .navdelmenu{ 
+        transform:translateX(80rem)
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
